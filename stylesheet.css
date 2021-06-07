@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Start CSS for Header */
+.Header h1 {
+    color:burlywood;
+}
+/* End CSS for Header */
+
+/* Start CSS for Main */
+.Main h2 {
+    color:blue;
+}
+/* End CSS for Main */
+
+/* Start CSS for Body */
+.Body h3 {
+    color:red;
+}
+/* End CSS for Body */
+
+/* Start CSS for Footer */
+.Footer h4 {
+    color:rebeccapurple;
+}
+/* End CSS for Footer */
