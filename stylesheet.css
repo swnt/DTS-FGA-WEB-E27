@@ -136,11 +136,6 @@ a {
 }
 /* End CSS for Main */
 
-/* Start CSS for Body */
-.Body h3 {
-    color:red;
-}
-/* End CSS for Body */
 
 /* Start CSS for Footer */
 .Footer h4 {
@@ -260,3 +255,124 @@ top: 5503px;
 background: #C4C4C4;
 }
 /* End CSS for Footer */
+=======
+  /* End CSS for Body */
+  
+  /* Start CSS for Footer */
+  .Footer h4 {
+	  font-family: Mulish;
+    font-size: 18px;
+	  color: #d41e1e;
+	  text-transform: capitalize;
+	  margin-bottom: 35px;
+	  font-weight: 500;
+	  position: relative;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Footer{
+    background-color: aqua;
+      padding: 40px 0;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+ }
+ .footer-col p{
+	font-size: 16px;
+	color: #302b2b;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+  .kotak{
+    background-color: red;
+    padding: 40px 0;
+  }
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #d6d5d5;
+    text-decoration: none;
+    font-weight: 300;
+    color: #302b2b;
+    display: block;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+  }
+  .footer-col ul li a:hover{
+    color: #585858;
+    padding-left: 8px;
+  }
+  .container{
+	max-width: 1170px;
+	margin:auto;
+  background-color: aqua;
+	border-radius: 0px;
+  }
+  .tentang{
+    position: absolute;
+    width: 391px;
+    height: 237px;
+    left: 190px;
+    top: 5185px;
+    font-size: 16px;
+	  color: #302b2b;
+	  text-transform: capitalize;
+	  margin-bottom: 35px;
+	  font-weight: 500;
+  }
+  .tujuan{
+    position: absolute;
+    width: 391px;
+    height: 249px;
+    left: 689px;
+    top: 5177px;
+    font-size: 16px;
+	  text-transform: capitalize;
+	 
+  }
+  .fitur{
+    position: absolute;
+    width: 391px;
+    height: 287px;
+    left: 962px;
+    top: 5177px;
+    font-size: 16px;
+	  text-transform: capitalize;
+	  font-weight: 500;
+  }
+  .jperjalanan{
+    position: absolute;
+    width: 391px;
+    height: 249px;
+    left: 1249px;
+    top: 5177px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .sosmed{
+    position: absolute;
+    width: 248.01px;
+    height: 23px;
+    left: 644px;
+    top: 5534px;
+    justify-content: center;
+  }
+  .sosmed a{
+    padding-right: 22px;
+  }
+  .garis{
+    position: absolute;
+  width: 1219px;
+  height: 0.6px;
+  left: 191px;
+  top: 5503px;
+  background: #C4C4C4;
+  }
