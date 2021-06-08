@@ -3,7 +3,6 @@
     body {
         width: 100%;
     }
-
     /* Start CSS for Main */
     .firstMain {
         flex-direction: column;
@@ -57,7 +56,6 @@
     .titleSecondMain h2 {
         font-size: 9px;
     }
-      
     .titleSecondMain img {
       width: 3px;
       height: 5px;

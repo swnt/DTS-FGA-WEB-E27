@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 
 body {
   font-family: 'Playfair Display', serif;
-  width: 1400px;
+  width: 1600px;
   margin: auto;
 }
 
@@ -29,7 +29,6 @@ a {
 .Main {
   margin: auto;
 }
-
 .firstMain {
   padding-left: 10%;
   padding-right: 63px;
@@ -37,18 +36,15 @@ a {
   display: flex;
   justify-content: center;
 }
-
 .imageFirstMain img {
   padding-left: 100px;
   flex: auto;
   width: 659px;
   height: 455.23px;
 }
-
 .descFirstMain {
   flex: auto;
 }
-
 .descFirstMain h1 {
   font-size: 36px;
   font-weight: bold;
@@ -56,7 +52,6 @@ a {
   line-height: 50px;
   margin-bottom: 20px;
 }
-
 .descFirstMain p {
   font-size: 17px;
   color: #7D7987;
@@ -65,7 +60,6 @@ a {
   margin-bottom: 33px;
   text-align: justify;
 }
-
 .descFirstMain button {
   width: 164px;
   height: 48px;
@@ -75,12 +69,19 @@ a {
   font-size: 16px;
   text-align: center;
   border: none;
+  box-shadow: 0 9px #7D7987;
 }
-
+.descFirstMain button:hover {
+  background-color: #3e8e41
+}
+.descFirstMain button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 .titleSecondMain {
   display: flex;
 }
-
 .textTitleSecondMain {
   flex: auto;
   font-size: 36px;
@@ -88,28 +89,23 @@ a {
   margin-left: 50px;
   padding-right: 60%;
 }
-
 .buttonTitleSecondMain {
   flex: auto;
   font-size: 17px;
   color: #1ABE84;
   cursor: pointer;
 }
-
 .buttonTitleSecondMain img {
   width: 4px;
   height: 9px;
 }
-
 .contentSecondMain {
   display: flex;
   padding: 20px 0px;
 }
-
 .containerContent {
   margin: auto;
 }
-
 .contentDestinations {
   flex: auto;
   position: relative;
@@ -122,9 +118,6 @@ a {
   height: 337px;
   border-radius: 8px;
 }
-/* .contentDestinations:last-child{
-  margin-right: 0;
-} */
 .textImage {
   height: 50px;
   padding: 3px;
@@ -134,16 +127,13 @@ a {
   vertical-align: middle;
   background-color:#FFFFFF;
 }
-
 .textImage h1 {
   font-size: 17px;;
 }
-
 .textImage p {
   font-size: 15px;
   color: #7D7987;
 }
-
 /* End CSS for Main */
 
 /* Start CSS for Body */
