@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
@@ -20,9 +30,10 @@ a {
 }
 
 /* Start CSS for Header */
-header{
+header {
   width: 1600px;
 }
+
 li {
   list-style: none;
 }
@@ -37,7 +48,7 @@ li {
   flex-wrap: wrap;
 }
 
-.header .flex-header-left{
+.header .flex-header-left {
   flex: 40%;
   text-align: left;
 }
@@ -124,7 +135,7 @@ li {
   padding: 10px 40px;
 }
 
-.header-body .flex-header-left{
+.header-body .flex-header-left {
   flex: 40%;
   text-align: left;
 }
@@ -148,7 +159,8 @@ li {
   padding-top: 47px;
 }
 
-.header-body .flex-header-left select, .header-body .flex-header-left input {
+.header-body .flex-header-left select,
+.header-body .flex-header-left input {
   flex: 50%;
   flex-direction: row;
   font-size: 15px;
@@ -200,7 +212,7 @@ hr {
   margin-top: 20px;
 }
 
-.flex-header-right img{
+.flex-header-right img {
   flex: 50%;
   text-align: right;
   height: 494px;
@@ -213,13 +225,14 @@ hr {
   padding: 10px 20px;
   display: none;
 }
-
 /* End CSS for Header */
 
 /* Start CSS for Main */
 .Main {
   margin: auto;
+  width: 1300px;
 }
+
 .firstMain {
   padding-left: 10%;
   padding-right: 63px;
@@ -227,15 +240,18 @@ hr {
   display: flex;
   justify-content: center;
 }
+
 .imageFirstMain img {
   padding-left: 100px;
   flex: auto;
   width: 659px;
   height: 455.23px;
 }
+
 .descFirstMain {
   flex: auto;
 }
+
 .descFirstMain h1 {
   font-size: 36px;
   font-weight: bold;
@@ -243,6 +259,7 @@ hr {
   line-height: 50px;
   margin-bottom: 20px;
 }
+
 .descFirstMain p {
   font-size: 17px;
   color: #7D7987;
@@ -251,6 +268,7 @@ hr {
   margin-bottom: 33px;
   text-align: justify;
 }
+
 .descFirstMain button {
   width: 164px;
   height: 48px;
@@ -262,17 +280,21 @@ hr {
   border: none;
   box-shadow: 0 9px #7D7987;
 }
+
 .descFirstMain button:hover {
   background-color: #3e8e41
 }
+
 .descFirstMain button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 .titleSecondMain {
   display: flex;
 }
+
 .textTitleSecondMain {
   flex: auto;
   font-size: 36px;
@@ -280,23 +302,28 @@ hr {
   margin-left: 50px;
   padding-right: 60%;
 }
+
 .buttonTitleSecondMain {
   flex: auto;
   font-size: 17px;
   color: #1ABE84;
   cursor: pointer;
 }
+
 .buttonTitleSecondMain img {
   width: 4px;
   height: 9px;
 }
+
 .contentSecondMain {
   display: flex;
   padding: 20px 0px;
 }
+
 .containerContent {
   margin: auto;
 }
+
 .contentDestinations {
   flex: auto;
   position: relative;
@@ -304,11 +331,13 @@ hr {
   height: 337px;
   border-radius: 8px;
 }
+
 .contentDestinations img {
   width: 261px;
   height: 337px;
   border-radius: 8px;
 }
+
 .textImage {
   height: 50px;
   padding: 3px;
@@ -316,21 +345,24 @@ hr {
   position: absolute;
   bottom: 0;
   vertical-align: middle;
-  background-color:#FFFFFF;
+  background-color: #FFFFFF;
 }
+
 .textImage h1 {
-  font-size: 17px;;
+  font-size: 17px;
+  ;
 }
+
 .textImage p {
   font-size: 15px;
   color: #7D7987;
 }
+
 /* End CSS for Main */
 
 
 /* End CSS for Body */
-  
+
 /* Start CSS for Footer */
 
 /* End CSS for Footer */
-  
