@@ -1,12 +1,14 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-}
-
-/* Untuk Smartphone */
-@media all and (max-width: 670px) {
   body {
-    width: 670px;
+    width: 800px;
   }
+
+  .guide .flex-item-left,
+  .testimoni .flex-item-left {
+    height: 350px;
+  }
+
   .flex-item-right,
   .flex-item-left {
     flex: 100%;
@@ -21,7 +23,7 @@
   .guide .flex-item-left h1,
   .guide .flex-item-left p,
   .testimoni .flex-item-left h4 {
-    width: 600px;
+    width: 700px;
   }
 
   .guide .flex-item-left .btn {
@@ -30,8 +32,8 @@
 
   .container {
     margin-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 200px;
   }
 
@@ -57,4 +59,8 @@
     width: 120px;
     height: 50px;
   }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
 }
