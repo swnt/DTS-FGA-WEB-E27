@@ -1,5 +1,68 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+  .guide .flex-item-left,
+  .testimoni .flex-item-left {
+    height: 350px;
+  }
+
+  .flex-item-right,
+  .flex-item-left {
+    flex: 100%;
+    float: left;
+  }
+
+  .guide .flex-item-right img,
+  .testimoni .flex-item-right .img img {
+    height: 300px;
+  }
+
+  .guide .flex-item-left h1,
+  .guide .flex-item-left p,
+  .testimoni .flex-item-left h4 {
+    width: 700px;
+  }
+
+  .testimoni .flex-item-left h5 {
+    margin-top: 50px;
+  }
+
+  .guide .flex-item-left p {
+    margin-bottom: 13px;
+  }
+
+  .guide .flex-item-left .btn {
+    margin-bottom: 150px;
+  }
+
+  .container {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+  }
+
+  .testimoni .flex-item-left {
+    flex: 40%;
+  }
+
+  .testimoni .flex-item-right {
+    flex: 40%;
+  }
+
+  .testimoni .flex-item-left .star {
+    margin-top: 50px;
+  }
+
+  .testimoni .flex-item-right .page {
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    top: 255px;
+    left: 300px;
+    padding: 5px;
+    width: 120px;
+    height: 50px;
+  }
     body {
         width: 1000px;
     }
@@ -198,3 +261,4 @@
 
     /* End CSS for Main */
 }
+
