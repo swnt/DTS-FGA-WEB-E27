@@ -26,6 +26,14 @@
     width: 700px;
   }
 
+  .testimoni .flex-item-left h5 {
+    margin-top: 50px;
+  }
+
+  .guide .flex-item-left p {
+    margin-bottom: 13px;
+  }
+
   .guide .flex-item-left .btn {
     margin-bottom: 150px;
   }
