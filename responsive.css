@@ -39,6 +39,42 @@
         width: 4px;
         height: 7px;
     }
+    .topfooter {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        
+    }
+    .footer-col {
+        width: 20%;
+        margin: 0 auto;}
+    .tentang {
+        margin: auto;
+    }
+    .tujuan {
+        width: 10%;
+        margin: auto;
+    }
+    .fitur {
+        width: 10%;
+        margin: auto;
+    }
+    .jperjalanan {
+        width: 10%;     
+        margin: auto;
+    }
+    .sosmed {
+        width: 100%;
+        margin: auto;
+        flex: content;
+    }
+    .garis{
+        height: 0px;
+    }
     /* Start CSS for Main */
 }
 
@@ -94,8 +130,35 @@
     .contentSecondMain {
         flex-direction: column;
     }
-    .containerContent {
-        width: 100%;
+    .footer{
+        width:max-content;
+    }
+    .footer-col {
+        width: 20%;
+        margin: 0 auto;
+    }
+    .tentang {
+        margin-left: 0;
+        margin-right: 5%;
+    }
+    .tujuan {
+        width: 5%;
+        margin: auto;
+    }
+    .fitur {
+        width: 5%;
+        margin: auto;
+    }
+    .jperjalanan {
+        width: 5%;     
+        margin: auto;
+    }
+    .sosmed {
+        width: 10%;
+        margin: auto;
+    }
+    .garis{
+        height: 0px;
     }
     /* End CSS for Main */
 }
