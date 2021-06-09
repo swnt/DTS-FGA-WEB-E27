@@ -150,10 +150,11 @@ a {
 
 /* Start CSS for Footer */
 .Footer {
-  width: 1650px;
-  padding-left: 200px;
+  padding-left: 5%;
+  margin-right: 5%;
   /* height: 502px; */
   background-color: #F9F9FB;
+
 }
 .topFooter {
   height: 250px;
@@ -163,19 +164,27 @@ a {
   margin-bottom: 100px;
 }
 .Footer h4 {
-
+  /* font-family: Mulish; */
   font-size: 18px;
   color: #d41e1e;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
 }
+.topFooter {
+  display: flex; 
+  flex-wrap: wrap;
+} 
+
 ul {
   list-style: none;
 }
 .footer-col {
   width: 25%;
   padding: 0 15px;
+  flex: auto;
+  position: relative;
+
 }
 .footer-col p {
   font-size: 16px;
@@ -201,6 +210,7 @@ ul {
   padding-left: 8px;
 }
 .tentang {
+  padding-right: 10px;
   font-size: 16px;
   color: #302b2b;
   text-transform: capitalize;
@@ -210,8 +220,10 @@ ul {
 .tujuan {
   font-size: 16px;
   text-transform: capitalize;
+  flex: auto;
 }
 .fitur {
+  flex: auto;
   font-size: 16px;
   text-transform: capitalize;
   font-weight: 500;
@@ -219,19 +231,22 @@ ul {
 .jperjalanan {
   font-size: 16px;
   font-weight: 500;
+  flex: auto;
 }
 .sosmed {
   padding: 40px 0;
   width: 248.01px;
   justify-content: center;
   margin: auto;
+  flex: auto;
 }
 .sosmed a {
   padding-right: 22px;
+  flex: auto;
 }
 .garis {
   margin: auto;
-  width: 1219px;
+  width: 1300px;
   height: 0.6px;
   background: #c4c4c4;
 }
