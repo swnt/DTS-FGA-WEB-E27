@@ -10,13 +10,13 @@
   }
 
   .header .flex-header-right{
-    display: none;
+      display: none;
 }
-.header .flex-container .menu-icon {
+  .header .flex-container .menu-icon {
     display: block;
-}
+  }
 
-.header-body .flex-header-left select{
+  .header-body .flex-header-left select, .header-body .flex-header-left select {
     width: 30%;
 }
 

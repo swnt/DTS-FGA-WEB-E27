@@ -80,6 +80,20 @@ li {
   padding: 10px 40px;
 }
 
+.header .flex-header-right .btn a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #1ABE84;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
 .header .flex-header-right .btn-white a {
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -89,6 +103,20 @@ li {
   width: 20%;
   height: 30px;
   background-color: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header .flex-header-right .btn-white a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background: #1ABE84;
   border: 1px solid #1ABE84;
   box-sizing: border-box;
   padding: 10px 40px;
@@ -118,7 +146,7 @@ li {
   padding-top: 47px;
 }
 
-.header-body .flex-header-left select {
+.header-body .flex-header-left select, .header-body .flex-header-left input {
   flex: 50%;
   flex-direction: row;
   font-size: 15px;
@@ -126,7 +154,7 @@ li {
   color: #4A4C53;
   border: 1px solid #AFB0B9;
   border-radius: 4px;
-  width: 40%;
+  width: 30%;
   height: 40px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -149,6 +177,21 @@ hr {
   width: 30%;
   height: 30px;
   background: #1ABE84;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.header-body .flex-header-left .btn a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #1ABE84;
+  border-radius: 8px;
+  width: 30%;
+  height: 30px;
+  background: #ffffff;
   border: 1px solid #1ABE84;
   box-sizing: border-box;
   padding: 10px 40px;
