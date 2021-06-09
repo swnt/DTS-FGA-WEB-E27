@@ -2,15 +2,25 @@
   box-sizing: border-box;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   width: 1600px;
   margin: auto;
 }
@@ -21,7 +31,7 @@ a {
 
 /* Start CSS for Header */
 .Header h1 {
-    color:burlywood;
+  color: burlywood;
 }
 /* End CSS for Header */
 
@@ -54,7 +64,7 @@ a {
 }
 .descFirstMain p {
   font-size: 17px;
-  color: #7D7987;
+  color: #7d7987;
   width: 300px;
   line-height: 30px;
   margin-bottom: 33px;
@@ -63,16 +73,16 @@ a {
 .descFirstMain button {
   width: 164px;
   height: 48px;
-  background-color: #1ABE84;
+  background-color: #1abe84;
   border-radius: 8px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   text-align: center;
   border: none;
-  box-shadow: 0 9px #7D7987;
+  box-shadow: 0 9px #7d7987;
 }
 .descFirstMain button:hover {
-  background-color: #3e8e41
+  background-color: #3e8e41;
 }
 .descFirstMain button:active {
   background-color: #3e8e41;
@@ -92,7 +102,7 @@ a {
 .buttonTitleSecondMain {
   flex: auto;
   font-size: 17px;
-  color: #1ABE84;
+  color: #1abe84;
   cursor: pointer;
 }
 .buttonTitleSecondMain img {
@@ -125,127 +135,144 @@ a {
   position: absolute;
   bottom: 0;
   vertical-align: middle;
-  background-color:#FFFFFF;
+  background-color: #ffffff;
 }
 .textImage h1 {
-  font-size: 17px;;
+  font-size: 17px;
 }
 .textImage p {
   font-size: 15px;
-  color: #7D7987;
+  color: #7d7987;
 }
 /* End CSS for Main */
 
+/* Start CSS for Footer */
 
 /* Start CSS for Footer */
-  /* Start CSS for Footer */
-.Footer h4 {
-	font-family: Mulish;
-	font-size: 18px;
-	color: #d41e1e;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-  }
-  .row{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .Footer{
-    background-color: aqua; /* ini gak bisa jadiin backroun */
-    padding: 40px 0;
-  }
-  ul{
-    list-style: none;
-  }
-  .footer-col{
-    width: 25%;
-    padding: 0 15px;
- }
- .footer-col p{
-	font-size: 16px;
-	color: #302b2b;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
+.Footer {
+  /* background-color: aqua; ini gak bisa jadiin backroun */
+  /* padding: 40px 0; */
+  width: 1650px;
+  padding-left: 200px;
+  /* height: 502px; */
+  background-color: #F9F9FB;
 }
-  .kotak{
-    background-color: red; /* ini juga */
-    padding: 40px 0;
-  }
-  .footer-col ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #d6d5d5;
-    text-decoration: none;
-    font-weight: 300;
-    color: #302b2b;
-    display: block;
-    transition: all 0.3s ease;
-    margin-bottom: 15px;
-  }
-  .footer-col ul li a:hover{
-    color: #585858;
-    padding-left: 8px;
-  }
-  .tentang{
-    position: absolute;
-    width: 391px;
-    height: 237px;
-    left: 190px;
-    top: 5185px;
-    font-size: 16px;
-    color: #302b2b;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
-  }
-  .tujuan{
-    	position: absolute;
-    	width: 391px;
-    	height: 249px;
-    	left: 689px;
-    	top: 5177px;
-    	font-size: 16px;
-	text-transform: capitalize;	 
-  }
-  .fitur{
-    position: absolute;
-    width: 391px;
-    height: 287px;
-    left: 962px;
-    top: 5177px;
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 500;
-  }
-  .jperjalanan{
-    position: absolute;
-    width: 391px;
-    height: 249px;
-    left: 1249px;
-    top: 5177px;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  .sosmed{
-    position: absolute;
-    width: 248.01px;
-    height: 23px;
-    left: 644px;
-    top: 5534px;
-    justify-content: center;
-  }
-  .sosmed a{
-    padding-right: 22px;
-  }
-  .garis{
-    position: absolute;
+.topFooter {
+  /* background-color: blue; */
+  height: 250px;
+  display: flex;
+  padding-top: 80px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+.Footer h4 {
+  /* font-family: Mulish; */
+  font-size: 18px;
+  color: #d41e1e;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  /* position: relative; */
+}
+/* .row {
+  display: flex; 
+  flex-wrap: wrap;
+} */
+
+ul {
+  list-style: none;
+}
+.footer-col {
+  /* background-color: blueviolet; */
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col p {
+  font-size: 16px;
+  color: #302b2b;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+/* .kotak {
+  background-color: red; ini juga
+  padding: 40px 0;
+} */
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #d6d5d5;
+  text-decoration: none;
+  font-weight: 300;
+  color: #302b2b;
+  display: block;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+.footer-col ul li a:hover {
+  color: #585858;
+  padding-left: 8px;
+}
+.tentang {
+  /* position: absolute; */
+  /* width: 391px;
+  height: 237px;
+  left: 190px; */
+  /* top: 5185px; */
+  font-size: 16px;
+  color: #302b2b;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+.tujuan {
+  /* position: absolute; */
+  /* width: 391px;
+  height: 249px;
+  left: 689px; */
+  /* top: 5177px; */
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.fitur {
+  /* position: absolute; */
+  /* width: 391px;
+  height: 287px;
+  left: 962px; */
+  /* top: 5177px; */
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.jperjalanan {
+  /* position: absolute; */
+  /* width: 391px; */
+  /* height: 249px; */
+  /* left: 1249px; */
+  /* top: 5177px; */
+  font-size: 16px;
+  font-weight: 500;
+}
+.sosmed {
+  padding: 40px 0;
+  /* position: absolute; */
+  width: 248.01px;
+  /* height: 23px; */
+  /* left: 644px; */
+  /* top: 5534px; */
+  justify-content: center;
+  margin: auto;
+}
+.sosmed a {
+  padding-right: 22px;
+}
+.garis {
+  margin: auto;
+  /* position: absolute; */
   width: 1219px;
   height: 0.6px;
-  left: 191px;
-  top: 5503px;
-  background: #C4C4C4;
-  }
+  /* left: 191px; */
+  /* top: 5503px; */
+  background: #c4c4c4;
+}
