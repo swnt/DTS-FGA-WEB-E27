@@ -138,36 +138,68 @@ a {
 
 
 /* End CSS for Body */
-  {
+  /* {
   box-sizing: border-box;
+} */
+.bodyContainer {
+  margin-bottom: 100px;
 }
-
+.bodyContainer h2 {
+  margin-left: 50px;
+  font-size: 36px;
+}
 .box {
-  float: left;
-  width: 25%;
+  /* float: left; */
+  width: 266px;
   padding: 10px;
   height: 300px; 
+  margin: auto;
+  /* background-color:#ffff */
 }
 
-.box1:after {
+.box img {
+  height: 280px;
+  width: 261px;
+}
+
+.box p {
+  padding-top: 15px;
+  height: 180px;
+  width: 261px;
+  text-align: justify;
+  color: #7D7987;
+}
+
+.box h2 {
+  font-size: 19px;
+  margin-left: 0;
+}
+
+/* .box1:after {
   content: "";
   display: table;
   clear: both;
+} */
+
+.box1 {
+  padding-top: 50px;
+  display: flex;
+  margin: auto;
 }
 
 /* Untuk Tablet */
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .item {
     width: 50%;
   }
-}
+} */
 
 /* Untuk Smartphone */
-@media (max-width: 670px) {
+/* @media (max-width: 670px) {
   .item {
     width: 100%;
   }
-}
+} */
 /* Start CSS for Footer */
 
 /* End CSS for Footer */
