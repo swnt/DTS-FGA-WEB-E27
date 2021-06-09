@@ -1,9 +1,5 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  body {
-    width: 800px;
-  }
-
   .guide .flex-item-left,
   .testimoni .flex-item-left {
     height: 350px;
@@ -67,8 +63,202 @@
     width: 120px;
     height: 50px;
   }
+    body {
+        width: 1000px;
+    }
+
+    /* Start CSS for Header */
+    header {
+        width: 1000px;
+    }
+
+    .container {
+        padding: 40px 100px;
+        margin: 0 auto;
+    }
+
+    .header .flex-header-right {
+        display: none;
+    }
+
+    .header .flex-container .menu-icon {
+        display: block;
+    }
+
+    .header-body .flex-header-left select,
+    .header-body .flex-header-left select {
+        width: 30%;
+    }
+
+    .header-body .flex-header-right {
+        display: inline;
+    }
+
+    .header-body .flex-header-right img {
+        position: static;
+        text-align: center;
+        margin-top: 55px;
+        margin-right: 45px;
+        height: 408px;
+        width: 570px;
+        max-width: 100%;
+    }
+
+    /* End CSS for Header */
+
+    /* Start CSS for Main */
+    .firstMain {
+        flex-direction: column;
+    }
+
+    .Main {
+        width: 100%;
+    }
+
+    .secondMain {
+        flex-wrap: wrap;
+    }
+
+    .contentSecondMain {
+        flex-wrap: wrap;
+    }
+
+    .imageFirstMain img {
+        padding-left: 0px;
+    }
+
+    .containerContent {
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .contentDestinations {
+        margin: auto;
+    }
+
+    .titleSecondMain {
+        flex-direction: column;
+    }
+
+    .textTitleSecondMain {
+        padding-left: 5%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .buttonTitleSecondMain {
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .buttonTitleSecondMain img {
+        width: 4px;
+        height: 7px;
+    }
+
+    /* Start CSS for Main */
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+    body {
+        width: 670px;
+    }
+
+    /* Start CSS for Header */
+    header {
+        width: 670px;
+    }
+
+    .header .flex-header-right {
+        display: none;
+    }
+
+    .header .flex-container .menu-icon {
+        display: block;
+    }
+
+    .header-body .flex-header-right {
+        display: inline;
+    }
+
+    .header-body .flex-header-right img {
+        margin-top: 45px;
+        height: 322px;
+        width: 450px;
+        max-width: 100%;
+    }
+
+    /* End CSS for Header */
+
+    /* Start CSS for Main */
+    .imageFirstMain {
+        margin: auto;
+    }
+
+    .Main {
+        width: 100%;
+    }
+
+    .titleSecondMain h1 {
+        font-size: 15px;
+        margin-left: 15%;
+        padding-right: 20%;
+    }
+
+    .titleSecondMain h2 {
+        font-size: 9px;
+    }
+
+    .titleSecondMain img {
+        width: 3px;
+        height: 5px;
+    }
+
+    .imageFirstMain img {
+        width: 261px;
+        height: 180.23px;
+    }
+
+    .titleSecondMain {
+        flex-direction: column;
+    }
+
+    .textTitleSecondMain {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .buttonTitleSecondMain {
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .buttonTitleSecondMain img {
+        width: 4px;
+        height: 7px;
+    }
+
+    .firstMain {
+        flex-direction: column;
+    }
+
+    .imageFirstMain img {
+        padding-left: 0px;
+    }
+
+    .descFirstMain {
+        margin: auto;
+    }
+
+    .contentSecondMain {
+        flex-direction: column;
+    }
+
+    .containerContent {
+        width: 100%;
+    }
+
+    /* End CSS for Main */
 }
+

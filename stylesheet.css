@@ -20,9 +20,9 @@ div {
 }
 
 body {
-  font-family: "Playfair Display", serif;
-  background: #ffffff;
+  font-family: 'Playfair Display', serif;
   width: 1600px;
+  margin: auto;
 }
 
 a {
@@ -30,21 +30,281 @@ a {
 }
 
 /* Start CSS for Header */
-.Header h1 {
-  color: burlywood;
+header {
+  width: 1600px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding: 45px 191px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header .flex-header-left {
+  flex: 40%;
+  text-align: left;
+}
+
+.flex-header-right {
+  flex: 60%;
+  text-align: right;
+}
+
+.header .flex-header-right .nav a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #B8BECD;
+  padding: 10px 20px;
+}
+
+.header .flex-header-right .nav a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.header .flex-header-right .nav-h a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.header .flex-header-right .btn a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background: #1ABE84;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header .flex-header-right .btn a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #1ABE84;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header .flex-header-right .btn-white a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #1ABE84;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header .flex-header-right .btn-white a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background: #1ABE84;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header-body .flex-header-left {
+  flex: 40%;
+  text-align: left;
+}
+
+.header-body .flex-header-left h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #000000;
+  mix-blend-mode: normal;
+  width: 380px;
+}
+
+.header-body .flex-header-left h5 {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  padding-top: 47px;
+}
+
+.header-body .flex-header-left select,
+.header-body .flex-header-left input {
+  flex: 50%;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #4A4C53;
+  border: 1px solid #AFB0B9;
+  border-radius: 4px;
+  width: 30%;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+}
+
+hr {
+  width: 30px;
+  border: 1px solid #000;
+  float: left;
+}
+
+.header-body .flex-header-left .btn a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 30%;
+  height: 30px;
+  background: #1ABE84;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.header-body .flex-header-left .btn a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #1ABE84;
+  border-radius: 8px;
+  width: 30%;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.flex-header-right img {
+  flex: 50%;
+  text-align: right;
+  height: 494px;
+  width: 688px;
+}
+
+.header .flex-container .menu-icon {
+  color: #1ABE84;
+  font-size: 25px;
+  padding: 10px 20px;
+  display: none;
 }
 /* End CSS for Header */
 
 /* Start CSS for Main */
-.Main h2 {
-  color: blue;
+.Main {
+  margin: auto;
+  width: 1300px;
 }
-/* End CSS for Main */
+
+.firstMain {
+  padding-left: 10%;
+  padding-right: 63px;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.imageFirstMain img {
+  padding-left: 100px;
+  flex: auto;
+  width: 659px;
+  height: 455.23px;
+}
+
+.descFirstMain {
+  flex: auto;
+}
+
+.descFirstMain h1 {
+  font-size: 36px;
+  font-weight: bold;
+  width: 481px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.descFirstMain p {
+  font-size: 17px;
+  color: #7D7987;
+  width: 300px;
+  line-height: 30px;
+  margin-bottom: 33px;
+  text-align: justify;
+}
+
+.descFirstMain button {
+  width: 164px;
+  height: 48px;
+  background-color: #1ABE84;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 9px #7D7987;
+}
+
+.descFirstMain button:hover {
+  background-color: #3e8e41
+}
+
+.descFirstMain button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.titleSecondMain {
+  display: flex;
+}
+
+.textTitleSecondMain {
+  flex: auto;
+  font-size: 36px;
+  font-weight: bold;
+  margin-left: 50px;
+  padding-right: 60%;
+
+}
 
 /* Start CSS for Body */
-.Body h3 {
-  color: red;
-}
 
 .container {
   margin-top: 30px;
@@ -203,10 +463,67 @@ a {
   box-sizing: border-box;
 }
 
+.buttonTitleSecondMain {
+  flex: auto;
+  font-size: 17px;
+  color: #1ABE84;
+  cursor: pointer;
+}
+
+.buttonTitleSecondMain img {
+  width: 4px;
+  height: 9px;
+}
+
+.contentSecondMain {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.containerContent {
+  margin: auto;
+}
+
+.contentDestinations {
+  flex: auto;
+  position: relative;
+  width: 261px;
+  height: 337px;
+  border-radius: 8px;
+}
+
+.contentDestinations img {
+  width: 261px;
+  height: 337px;
+  border-radius: 8px;
+}
+
+.textImage {
+  height: 50px;
+  padding: 3px;
+  border-radius: 0px 6px 0px 0px;
+  position: absolute;
+  bottom: 0;
+  vertical-align: middle;
+  background-color: #FFFFFF;
+}
+
+.textImage h1 {
+  font-size: 17px;
+  ;
+}
+
+.textImage p {
+  font-size: 15px;
+  color: #7D7987;
+}
+
+/* End CSS for Main */
+
+
 /* End CSS for Body */
 
 /* Start CSS for Footer */
-.Footer h4 {
-  color: rebeccapurple;
-}
+
 /* End CSS for Footer */
+
