@@ -138,7 +138,36 @@ a {
 
 
 /* End CSS for Body */
-  
+  {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+}
+
+.box1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+  .item {
+    width: 50%;
+  }
+}
+
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+  .item {
+    width: 100%;
+  }
+}
 /* Start CSS for Footer */
 
 /* End CSS for Footer */
