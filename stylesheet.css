@@ -38,7 +38,7 @@ li {
   list-style: none;
 }
 
-.container {
+.containerHeader {
   padding: 45px 191px;
   margin: 0 auto;
 }
@@ -225,10 +225,12 @@ hr {
   padding: 10px 20px;
   display: none;
 }
+
 /* End CSS for Header */
 
 /* Start CSS for Main */
 .Main {
+  padding-top: 100px;
   margin: auto;
   width: 1300px;
 }
@@ -292,6 +294,7 @@ hr {
 }
 
 .titleSecondMain {
+  padding-top: 100px;
   display: flex;
 }
 
@@ -307,10 +310,11 @@ hr {
 /* Start CSS for Body */
 
 .container {
+  padding-top: 100px;
   margin-top: 30px;
   margin-left: 240px;
   margin-right: 213px;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 .flex-container {
@@ -526,4 +530,3 @@ hr {
 /* Start CSS for Footer */
 
 /* End CSS for Footer */
-
