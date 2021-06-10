@@ -10,14 +10,14 @@
   }
 }
 
-@media screen and (min-width: 1660px) {
+/* @media screen and (min-width: 1660px) {
   .Footer {
     margin-left: -50%;
     margin-right: -50%;
     padding-left: 60%;
     padding-right: 60%;
   }
-}
+} */
 
 @media screen and (min-width: 670px) {
   .mobiletentang2 {
@@ -529,8 +529,8 @@
   /* End CSS for Main */
 
   /* Start CSS for Footer  */
-  .Footer {
+  /* .Footer {
     margin-right: -8%;
-  }
+  } */
   /* End CSS for Footer  */
 }
