@@ -20,7 +20,7 @@ div {
 }
 
 body {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   width: 1600px;
   margin: auto;
 }
@@ -264,7 +264,7 @@ hr {
 
 .descFirstMain p {
   font-size: 17px;
-  color: #7D7987;
+  color: #7d7987;
   width: 300px;
   line-height: 30px;
   margin-bottom: 33px;
@@ -274,17 +274,17 @@ hr {
 .descFirstMain button {
   width: 164px;
   height: 48px;
-  background-color: #1ABE84;
+  background-color: #1abe84;
   border-radius: 8px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 16px;
   text-align: center;
   border: none;
-  box-shadow: 0 9px #7D7987;
+  box-shadow: 0 9px #7d7987;
 }
 
 .descFirstMain button:hover {
-  background-color: #3e8e41
+  background-color: #3e8e41;
 }
 
 .descFirstMain button:active {
@@ -470,7 +470,7 @@ hr {
 .buttonTitleSecondMain {
   flex: auto;
   font-size: 17px;
-  color: #1ABE84;
+  color: #1abe84;
   cursor: pointer;
 }
 
@@ -514,19 +514,116 @@ hr {
 
 .textImage h1 {
   font-size: 17px;
-  ;
 }
 
 .textImage p {
   font-size: 15px;
-  color: #7D7987;
+  color: #7d7987;
 }
 
 /* End CSS for Main */
 
-
-/* End CSS for Body */
-
 /* Start CSS for Footer */
 
+
+/* Start CSS for Footer */
+.Footer {
+  padding-left: 5%;
+  margin-right: 5%;
+  /* height: 502px; */
+  background-color: #f9f9fb;
+}
+.topFooter {
+  height: 250px;
+  display: flex;
+  padding-top: 80px;
+  margin-top: 180px;
+  margin-bottom: 100px;
+}
+.Footer h4 {
+  /* font-family: Mulish; */
+  font-size: 18px;
+  color: #d41e1e;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+.topFooter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+  flex: auto;
+  position: relative;
+}
+.footer-col p {
+  font-size: 16px;
+  color: #302b2b;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #d6d5d5;
+  text-decoration: none;
+  font-weight: 300;
+  color: #302b2b;
+  display: block;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+.footer-col ul li a:hover {
+  color: #585858;
+  padding-left: 8px;
+}
+.tentang {
+  padding-right: 10px;
+  font-size: 16px;
+  color: #302b2b;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+}
+.tujuan {
+  font-size: 16px;
+  text-transform: capitalize;
+  flex: auto;
+}
+.fitur {
+  flex: auto;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.jperjalanan {
+  font-size: 16px;
+  font-weight: 500;
+  flex: auto;
+}
+.sosmed {
+  padding: 40px 0;
+  width: 248.01px;
+  justify-content: center;
+  margin: auto;
+  flex: auto;
+}
+.sosmed a {
+  padding-right: 22px;
+  flex: auto;
+}
+.garis {
+  margin: auto;
+  width: 1300px;
+  height: 0.6px;
+  background: #c4c4c4;
+}
 /* End CSS for Footer */
