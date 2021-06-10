@@ -148,43 +148,25 @@ a {
   margin-left: 50px;
   font-size: 36px;
 }
-.box {
-  /* float: left; */
-  width: 266px;
-  padding: 10px;
-  height: 300px; 
-  margin: auto;
-  /* background-color:#ffff */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 24%;
 }
 
-.box img {
-  height: 280px;
-  width: 261px;
+div.gallery:hover {
+  border: 1px solid #777;
 }
 
-.box p {
-  padding-top: 15px;
-  height: 180px;
-  width: 261px;
-  text-align: justify;
-  color: #7D7987;
+div.gallery img {
+  width: 100%;
+  height: auto;
 }
 
-.box h2 {
-  font-size: 19px;
-  margin-left: 0;
-}
-
-/* .box1:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-.box1 {
-  padding-top: 50px;
-  display: flex;
-  margin: auto;
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 
 /* Untuk Tablet */
