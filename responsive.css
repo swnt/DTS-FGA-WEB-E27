@@ -1,536 +1,435 @@
 /* Untuk Tablet */
 
 @media screen and (min-width: 1000px) {
-  .mobiletentang {
-    display: none;
-  }
+    .mobiletentang {
+        display: none;
+    }
 
-  .mobiletentang2 {
-    display: none;
-  }
+    .mobiletentang2 {
+        display: none;
+    }
 }
 
-/* @media screen and (min-width: 1660px) {
-  .Footer {
-    margin-left: -50%;
-    margin-right: -50%;
-    padding-left: 60%;
-    padding-right: 60%;
-  }
-} */
-
 @media screen and (min-width: 670px) {
-  .mobiletentang2 {
-    display: none;
-  }
+    .mobiletentang2 {
+        display: none;
+    }
 }
 
 @media all and (max-width: 1000px) {
-  body {
-    width: 1000px;
-  }
+    body {
+        width: 1000px;
+    }
 
-  /* Start CSS for Main */
-  .firstMain {
-    flex-direction: column;
-  }
+    /* Start CSS for Header */
+    header {
+        width: 1000px;
+    }
 
-  .secondMain {
-    flex-wrap: wrap;
-  }
+    .containerHeader {
+        padding: 40px 0px 40px 100px;
+        margin: 0 auto;
+    }
 
-  .contentSecondMain {
-    flex-wrap: wrap;
-  }
+    .header .flex-header-right {
+        display: none;
+    }
 
-  .imageFirstMain img {
-    padding-left: 0px;
-  }
+    .header .flex-container .menu-icon {
+        display: block;
+    }
 
-  .containerContent {
-    width: 50%;
-    padding-top: 20px;
-  }
+    .header-body .flex-header-left select,
+    .header-body .flex-header-left select {
+        width: 30%;
+    }
 
-  .contentDestinations {
-    margin: auto;
-  }
+    .header-body .flex-header-right {
+        display: inline;
+    }
 
-  .titleSecondMain {
-    flex-direction: column;
-  }
+    .header-body .flex-header-right img {
+        position: static;
+        text-align: center;
+        margin-top: 55px;
+        margin-right: 45px;
+        height: 408px;
+        width: 570px;
+        max-width: 100%;
+    }
 
-  .textTitleSecondMain {
-    padding-left: 5%;
-    font-size: 20px;
-    font-weight: bold;
-  }
+    /* End CSS for Header */
+    /* Start CSS for Main */
+    .Main {
+        width: 100%;
+    }
 
-  .buttonTitleSecondMain {
-    margin: auto;
-    font-size: 14px;
-  }
+    .firstMain {
+        flex-direction: column;
+    }
 
-  .buttonTitleSecondMain img {
-    width: 4px;
-    height: 7px;
-  }
+    .secondMain {
+        flex-wrap: wrap;
+    }
 
-  .topfooter {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-  }
+    .contentSecondMain {
+        flex-wrap: wrap;
+    }
 
-  .footer-col .tentang {
-    display: none;
-    position: relative;
-  }
+    .imageFirstMain img {
+        padding-left: 0px;
+    }
 
-  .mobiletentang {
-    width: 100%;
-    margin-top: 150px;
-    text-align: center;
-  }
+    .containerContent {
+        width: 50%;
+        padding-top: 20px;
+    }
 
-  .mobiletujuan {
-    width: 30%;
-    margin: auto;
-    position: absolute;
-  }
+    .contentDestinations {
+        margin: auto;
+    }
 
-  .mobilefitur {
-    width: 30%;
-    margin: auto;
-  }
+    .titleSecondMain {
+        flex-direction: column;
+    }
 
-  .mobilejperjalanan {
-    width: 30%;
-    margin: auto;
-  }
+    .textTitleSecondMain {
+        padding-left: 5%;
+        font-size: 20px;
+        font-weight: bold;
+    }
 
-  .sosmed {
-    padding: 40px 0;
-    width: 260px;
-    justify-content: center;
-    margin: auto;
-    flex: auto;
-  }
+    .buttonTitleSecondMain {
+        margin: auto;
+        font-size: 14px;
+    }
 
-  .sosmed a {
-    padding: 13px;
-    flex: auto;
-  }
+    .buttonTitleSecondMain img {
+        width: 4px;
+        height: 7px;
+    }
 
-  .garis {
-    height: 0px;
-  }
+    /* End CSS for Main */
+    /* Start CSS for Body */
+    /* Start Body 1 */
+    .container {
+        margin-left: 10%;
+    }
 
-  /* Start CSS for Main */
-  body {
-    width: 1000px;
-  }
+    .guide .flex-item-left,
+    .testimoni .flex-item-left {
+        height: 350px;
+    }
 
-  /* Start CSS for Body */
-  .container {
-    margin-left: 10%;
-  }
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+        width: 605px;
+        float: left;
+    }
 
-  .guide .flex-item-left,
-  .testimoni .flex-item-left {
-    height: 350px;
-  }
+    .guide .flex-item-right img,
+    .testimoni .flex-item-right .img img {
+        height: 300px;
+    }
 
-  .flex-item-right,
-  .flex-item-left {
-    flex: 100%;
-    width: 605px;
-    float: left;
-  }
+    .guide .flex-item-left h1,
+    .guide .flex-item-left p,
+    .testimoni .flex-item-left h4 {
+        width: 600px;
+    }
 
-  .guide .flex-item-right img,
-  .testimoni .flex-item-right .img img {
-    height: 300px;
-  }
+    .testimoni .flex-item-left h5 {
+        margin-top: 50px;
+    }
 
-  .guide .flex-item-left h1,
-  .guide .flex-item-left p,
-  .testimoni .flex-item-left h4 {
-    width: 600px;
-  }
+    .guide .flex-item-left p {
+        margin-bottom: 13px;
+    }
 
-  .testimoni .flex-item-left h5 {
-    margin-top: 50px;
-  }
+    .guide .flex-item-left .btn {
+        margin-bottom: 150px;
+    }
 
-  .guide .flex-item-left p {
-    margin-bottom: 13px;
-  }
+    .body .container {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 200px;
+    }
 
-  .guide .flex-item-left .btn {
-    margin-bottom: 150px;
-  }
+    .testimoni .flex-item-left {
+        flex: 40%;
+    }
 
-  .body .container {
-    margin-top: 30px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 200px;
-  }
+    .testimoni .flex-item-right {
+        flex: 40%;
+    }
 
-  .testimoni .flex-item-left {
-    flex: 40%;
-  }
+    .testimoni .flex-item-left .star {
+        margin-top: 50px;
+    }
 
-  .testimoni .flex-item-right {
-    flex: 40%;
-  }
+    .testimoni .flex-item-right .page {
+        position: absolute;
+        border-radius: 10px;
+        background-color: white;
+        top: 255px;
+        left: 300px;
+        padding: 5px;
+        width: 120px;
+        height: 50px;
+    }
 
-  .testimoni .flex-item-left .star {
-    margin-top: 50px;
-  }
+    /* End Body 1 */
+    /* Start Body 2 */
+    .bodyContainer {
+        width: 1000px;
+    }
 
-  .testimoni .flex-item-right .page {
-    position: absolute;
-    border-radius: 10px;
-    background-color: white;
-    top: 255px;
-    left: 300px;
-    padding: 5px;
-    width: 120px;
-    height: 50px;
-  }
+    .box1 {
+        flex-wrap: wrap;
+    }
 
-  /* End CSS for Body */
+    .box {
+        width: 50%;
+    }
 
-  /* Start CSS for Header */
-  header {
-    width: 1000px;
-  }
+    /* End Body 2  */
+    /* End CSS for Body */
+    /* Start CSS for Footer */
+    .topfooter {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+    }
 
-  .containerHeader {
-    padding: 40px 0px 40px 100px;
-    margin: 0 auto;
-  }
+    .footer-col .tentang {
+        display: none;
+        position: relative;
+    }
 
-  .header .flex-header-right {
-    display: none;
-  }
+    .mobiletentang {
+        width: 100%;
+        margin-top: 150px;
+        text-align: center;
+    }
 
-  .header .flex-container .menu-icon {
-    display: block;
-  }
+    .mobiletujuan {
+        width: 30%;
+        margin: auto;
+        position: absolute;
+    }
 
-  .header-body .flex-header-left select,
-  .header-body .flex-header-left select {
-    width: 30%;
-  }
+    .mobilefitur {
+        width: 30%;
+        margin: auto;
+    }
 
-  .header-body .flex-header-right {
-    display: inline;
-  }
+    .mobilejperjalanan {
+        width: 30%;
+        margin: auto;
+    }
 
-  .header-body .flex-header-right img {
-    position: static;
-    text-align: center;
-    margin-top: 55px;
-    margin-right: 45px;
-    height: 408px;
-    width: 570px;
-    max-width: 100%;
-  }
+    .sosmed {
+        padding: 40px 0;
+        width: 260px;
+        justify-content: center;
+        margin: auto;
+        flex: auto;
+    }
 
-  /* End CSS for Header */
+    .sosmed a {
+        padding: 13px;
+        flex: auto;
+    }
 
-  /* Start CSS for Main */
-  .firstMain {
-    flex-direction: column;
-  }
+    .garis {
+        height: 0px;
+    }
 
-  .Main {
-    width: 100%;
-  }
-
-  .secondMain {
-    flex-wrap: wrap;
-  }
-
-  .contentSecondMain {
-    flex-wrap: wrap;
-  }
-
-  .imageFirstMain img {
-    padding-left: 0px;
-  }
-
-  .containerContent {
-    width: 50%;
-    padding-top: 20px;
-  }
-
-  .contentDestinations {
-    margin: auto;
-  }
-
-  .titleSecondMain {
-    flex-direction: column;
-  }
-
-  .textTitleSecondMain {
-    padding-left: 5%;
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .buttonTitleSecondMain {
-    margin: auto;
-    font-size: 14px;
-  }
-
-  .buttonTitleSecondMain img {
-    width: 4px;
-    height: 7px;
-  }
-
-  /* Start CSS for Main */
-
-  /* Start CSS for Footer  */
-  /* .mobiletentang {
-    display: none;
-  }
-
-  .mobiletentang2 {
-    display: none;
-  } */
-
-  /* End CSS for Footer  */
+    /* End CSS for Footer */
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  body {
-    width: 670px;
-  }
+    body {
+        width: 670px;
+    }
 
-  /* Start CSS for Main */
-  .imageFirstMain {
-    margin: auto;
-  }
+    /* Start CSS for Header */
+    header {
+        width: 670px;
+    }
 
-  .titleSecondMain h1 {
-    font-size: 15px;
-    margin-left: 15%;
-    padding-right: 20%;
-  }
+    .header .flex-header-right {
+        display: none;
+    }
 
-  .titleSecondMain h2 {
-    font-size: 9px;
-  }
+    .header .flex-container .menu-icon {
+        display: block;
+    }
 
-  .titleSecondMain img {
-    width: 3px;
-    height: 5px;
-  }
+    .header-body .flex-header-right {
+        display: inline;
+    }
 
-  .imageFirstMain img {
-    width: 261px;
-    height: 180.23px;
-  }
+    .header-body .flex-header-right img {
+        margin-top: 45px;
+        height: 322px;
+        width: 450px;
+        max-width: 100%;
+    }
 
-  .titleSecondMain {
-    flex-direction: column;
-  }
+    /* End CSS for Header */
+    /* Start CSS for Main */
+    .imageFirstMain {
+        margin: auto;
+    }
 
-  .textTitleSecondMain {
-    font-size: 15px;
-    width: 100%;
-  }
+    .titleSecondMain h1 {
+        font-size: 15px;
+        margin-left: 15%;
+        padding-right: 20%;
+    }
 
-  .buttonTitleSecondMain {
-    margin: auto;
-    font-size: 14px;
-  }
+    .titleSecondMain h2 {
+        font-size: 9px;
+    }
 
-  .buttonTitleSecondMain img {
-    width: 4px;
-    height: 7px;
-  }
+    .titleSecondMain img {
+        width: 3px;
+        height: 5px;
+    }
 
-  .firstMain {
-    flex-direction: column;
-  }
+    .imageFirstMain img {
+        width: 261px;
+        height: 180.23px;
+    }
 
-  .imageFirstMain img {
-    padding-left: 0px;
-  }
+    .titleSecondMain {
+        flex-direction: column;
+    }
 
-  .descFirstMain {
-    margin: auto;
-  }
+    .textTitleSecondMain {
+        font-size: 15px;
+        width: 100%;
+    }
 
-  .contentSecondMain {
-    flex-direction: column;
-  }
+    .buttonTitleSecondMain {
+        margin: auto;
+        font-size: 14px;
+    }
 
-  .footer {
-    width: max-content;
-  }
+    .buttonTitleSecondMain img {
+        width: 4px;
+        height: 7px;
+    }
 
-  .mobiletentang {
-    display: none;
-    position: relative;
-  }
+    .firstMain {
+        flex-direction: column;
+    }
 
-  .mobiletujuan {
-    width: 60%;
-    margin: auto;
-    position: absolute;
-  }
+    .imageFirstMain img {
+        padding-left: 0px;
+    }
 
-  .mobilefitur {
-    width: 40%;
-    margin: auto;
-  }
+    .descFirstMain {
+        margin: auto;
+    }
 
-  .mobilejperjalanan {
-    width: 40%;
-    margin: auto;
-    margin-top: 50px;
-  }
+    .contentSecondMain {
+        flex-direction: column;
+    }
 
-  .mobiletentang2 {
-    width: 60%;
-    margin-top: 50px;
-  }
+    .Main {
+        width: 100%;
+    }
 
-  .sosmed {
-    padding: 40px 0;
-    width: 260px;
-    justify-content: center;
-    margin: auto;
-    flex: auto;
-    margin-top: 450px;
-  }
-
-  .sosmed a {
-    padding: 13px;
-    flex: auto;
-  }
-
-  .garis {
-    height: 0px;
-  }
-
-  .garis {
-    height: 0px;
-  }
-
-  /* End CSS for Main */
+    .textTitleSecondMain {
+        font-size: 15px;
+        width: 100%;
+    }
 
 
-  body {
-    width: 670px;
-  }
+    .descFirstMain {
+        margin: auto;
+    }
 
-  /* Start CSS for Header */
-  header {
-    width: 670px;
-  }
+    .containerContent {
+        width: 100%;
+    }
 
-  .header .flex-header-right {
-    display: none;
-  }
+    /* End CSS for Main */
+    /* Start CSS for Body */
+    /* Start Body 2 */
+    .bodyContainer {
+        width: 670px;
+    }
 
-  .header .flex-container .menu-icon {
-    display: block;
-  }
+    .box1 {
+        flex-direction: column;
+    }
 
-  .header-body .flex-header-right {
-    display: inline;
-  }
+    .box {
+        margin: auto;
+    }
 
-  .header-body .flex-header-right img {
-    margin-top: 45px;
-    height: 322px;
-    width: 450px;
-    max-width: 100%;
-  }
+    /* End Body 2 */
+    /* End CSS for Body */
+    /* Start CSS for Footer */
+    .footer {
+        width: max-content;
+    }
 
-  /* End CSS for Header */
+    .mobiletentang {
+        display: none;
+        position: relative;
+    }
 
-  /* Start CSS for Main */
-  .imageFirstMain {
-    margin: auto;
-  }
+    .mobiletujuan {
+        width: 60%;
+        margin: auto;
+        position: absolute;
+    }
 
-  .Main {
-    width: 100%;
-  }
+    .mobilefitur {
+        width: 40%;
+        margin: auto;
+    }
 
-  .titleSecondMain h1 {
-    font-size: 15px;
-    margin-left: 15%;
-    padding-right: 20%;
-  }
+    .mobilejperjalanan {
+        width: 40%;
+        margin: auto;
+        margin-top: 50px;
+    }
 
-  .titleSecondMain h2 {
-    font-size: 9px;
-  }
+    .mobiletentang2 {
+        width: 60%;
+        margin-top: 50px;
+    }
 
-  .titleSecondMain img {
-    width: 3px;
-    height: 5px;
-  }
+    .sosmed {
+        padding: 40px 0;
+        width: 260px;
+        justify-content: center;
+        margin: auto;
+        flex: auto;
+        margin-top: 450px;
+    }
 
-  .imageFirstMain img {
-    width: 261px;
-    height: 180.23px;
-  }
+    .sosmed a {
+        padding: 13px;
+        flex: auto;
+    }
 
-  .titleSecondMain {
-    flex-direction: column;
-  }
+    .garis {
+        height: 0px;
+    }
 
-  .textTitleSecondMain {
-    font-size: 15px;
-    width: 100%;
-  }
+    .garis {
+        height: 0px;
+    }
 
-  .buttonTitleSecondMain {
-    margin: auto;
-    font-size: 14px;
-  }
-
-  .buttonTitleSecondMain img {
-    width: 4px;
-    height: 7px;
-  }
-
-  .firstMain {
-    flex-direction: column;
-  }
-
-  .imageFirstMain img {
-    padding-left: 0px;
-  }
-
-  .descFirstMain {
-    margin: auto;
-  }
-
-  .contentSecondMain {
-    flex-direction: column;
-  }
-
-  .containerContent {
-    width: 100%;
-  }
-
-  /* End CSS for Main */
-
-  /* Start CSS for Footer  */
-  /* .Footer {
-    margin-right: -8%;
-  } */
-  /* End CSS for Footer  */
+    /* End CSS for Footer */
 }

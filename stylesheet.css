@@ -307,8 +307,11 @@ hr {
 
 }
 
-/* Start CSS for Body */
+/* End CSS for Main */
 
+
+/* Start CSS for Body */
+/* Start Body 1 */
 .container {
   padding-top: 100px;
   margin-top: 30px;
@@ -521,9 +524,52 @@ hr {
   color: #7d7987;
 }
 
-/* End CSS for Main */
+/* End Body 1 */
+/* Start Body 2 */
+.bodyContainer {
+  padding-bottom: 100px;
+  width: 1125px;
+  margin: auto;
+}
 
-/* Start CSS for Footer */
+.bodyContainer h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.box {
+  padding: 10px;
+  margin: auto;
+}
+
+.box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 280px;
+  width: 261px;
+}
+
+.box p {
+  padding-top: 15px;
+  width: 261px;
+  text-align: justify;
+  color: #7D7987;
+  margin: auto;
+}
+
+.box h2 {
+  font-size: 19px;
+  margin-left: 0;
+}
+
+.box1 {
+  padding-top: 50px;
+  display: flex;
+  margin: auto;
+}
+
+/* End Body 2 */
 
 
 /* Start CSS for Footer */
@@ -542,7 +588,6 @@ hr {
 }
 
 .Footer h4 {
-  /* font-family: Mulish; */
   font-size: 18px;
   color: #d41e1e;
   text-transform: capitalize;
