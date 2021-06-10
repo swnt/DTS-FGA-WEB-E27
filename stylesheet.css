@@ -30,15 +30,211 @@ a {
 }
 
 /* Start CSS for Header */
-.Header h1 {
-  color: burlywood;
+header {
+  width: 1600px;
 }
+
+li {
+  list-style: none;
+}
+
+.containerHeader {
+  padding: 45px 191px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header .flex-header-left {
+  flex: 40%;
+  text-align: left;
+}
+
+.flex-header-right {
+  flex: 60%;
+  text-align: right;
+}
+
+.header .flex-header-right .nav a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #B8BECD;
+  padding: 10px 20px;
+}
+
+.header .flex-header-right .nav a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.header .flex-header-right .nav-h a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  padding: 10px 20px;
+}
+
+.header .flex-header-right .btn a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background: #1ABE84;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header .flex-header-right .btn a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #1ABE84;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header .flex-header-right .btn-white a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #1ABE84;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header .flex-header-right .btn-white a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  width: 20%;
+  height: 30px;
+  background: #1ABE84;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+}
+
+.header-body .flex-header-left {
+  flex: 40%;
+  text-align: left;
+}
+
+.header-body .flex-header-left h1 {
+  font-size: 64px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #000000;
+  mix-blend-mode: normal;
+  width: 380px;
+}
+
+.header-body .flex-header-left h5 {
+  font-size: 22px;
+  font-family: "Inter", sans-serif;
+  padding-top: 47px;
+}
+
+.header-body .flex-header-left select,
+.header-body .flex-header-left input {
+  flex: 50%;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  color: #4A4C53;
+  border: 1px solid #AFB0B9;
+  border-radius: 4px;
+  width: 30%;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+}
+
+hr {
+  width: 30px;
+  border: 1px solid #000;
+  float: left;
+}
+
+.header-body .flex-header-left .btn a {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 8px;
+  width: 30%;
+  height: 30px;
+  background: #1ABE84;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.header-body .flex-header-left .btn a:hover {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #1ABE84;
+  border-radius: 8px;
+  width: 30%;
+  height: 30px;
+  background: #ffffff;
+  border: 1px solid #1ABE84;
+  box-sizing: border-box;
+  padding: 10px 40px;
+  margin-top: 20px;
+}
+
+.flex-header-right img {
+  flex: 50%;
+  text-align: right;
+  height: 494px;
+  width: 688px;
+}
+
+.header .flex-container .menu-icon {
+  color: #1ABE84;
+  font-size: 25px;
+  padding: 10px 20px;
+  display: none;
+}
+
 /* End CSS for Header */
 
 /* Start CSS for Main */
 .Main {
+  padding-top: 100px;
   margin: auto;
+  width: 1300px;
 }
+
 .firstMain {
   padding-left: 10%;
   padding-right: 63px;
@@ -46,15 +242,18 @@ a {
   display: flex;
   justify-content: center;
 }
+
 .imageFirstMain img {
   padding-left: 100px;
   flex: auto;
   width: 659px;
   height: 455.23px;
 }
+
 .descFirstMain {
   flex: auto;
 }
+
 .descFirstMain h1 {
   font-size: 36px;
   font-weight: bold;
@@ -62,6 +261,7 @@ a {
   line-height: 50px;
   margin-bottom: 20px;
 }
+
 .descFirstMain p {
   font-size: 17px;
   color: #7d7987;
@@ -70,6 +270,7 @@ a {
   margin-bottom: 33px;
   text-align: justify;
 }
+
 .descFirstMain button {
   width: 164px;
   height: 48px;
@@ -81,41 +282,212 @@ a {
   border: none;
   box-shadow: 0 9px #7d7987;
 }
+
 .descFirstMain button:hover {
   background-color: #3e8e41;
 }
+
 .descFirstMain button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 .titleSecondMain {
+  padding-top: 100px;
   display: flex;
 }
+
 .textTitleSecondMain {
   flex: auto;
   font-size: 36px;
   font-weight: bold;
   margin-left: 50px;
   padding-right: 60%;
+
 }
+
+/* Start CSS for Body */
+
+.container {
+  padding-top: 100px;
+  margin-top: 30px;
+  margin-left: 240px;
+  margin-right: 213px;
+  margin-bottom: 100px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.flex-item-left {
+  flex: 40%;
+  text-align: left;
+}
+
+.guide .flex-item-left h1 {
+  margin-top: 60px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 50px;
+  margin-bottom: 20px;
+  color: #000000;
+  mix-blend-mode: normal;
+  width: 381px;
+}
+
+.guide .flex-item-left p {
+  font-weight: 300;
+  font-style: normal;
+  font-family: "Mulish", sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 45px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  width: 450px;
+  height: 90px;
+}
+
+.guide .flex-item-left .btn {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  padding: 10px 43px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  background: #1abe84;
+  border: 1px solid #1abe84;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 164px;
+  height: 48px;
+}
+
+.flex-item-right {
+  flex: 40%;
+}
+
+.guide .flex-item-right img {
+  height: 400px;
+}
+
+.testimoni .flex-item-left .star {
+  color: orange;
+  margin-right: 10px;
+  margin-top: 130px;
+  margin-bottom: 40px;
+}
+
+.testimoni .flex-item-left h4 {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  width: 450px;
+  height: 144px;
+}
+
+.testimoni .flex-item-left h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 48px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-top: 120px;
+}
+
+.testimoni .flex-item-left p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  color: rgba(0, 0, 0, 0.85);
+  mix-blend-mode: normal;
+}
+
+.testimoni .flex-item-right .img {
+  position: relative;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.testimoni .flex-item-right .img img {
+  border-radius: 5px;
+}
+
+.testimoni .flex-item-right .page {
+  position: absolute;
+  border-radius: 10px;
+  background-color: white;
+  top: 435px;
+  left: 355px;
+  padding: 10px 10px;
+  width: 132px;
+  height: 60px;
+}
+
+.testimoni .flex-item-right .page a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.testimoni .flex-item-right .page a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.testimoni .flex-item-right .page .previous {
+  border: 2px solid #d7d7d7;
+}
+
+.testimoni .flex-item-right .page .next {
+  border: 2px solid #000000;
+}
+
+.testimoni .flex-item-right .page .round {
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
 .buttonTitleSecondMain {
   flex: auto;
   font-size: 17px;
   color: #1abe84;
   cursor: pointer;
 }
+
 .buttonTitleSecondMain img {
   width: 4px;
   height: 9px;
 }
+
 .contentSecondMain {
   display: flex;
   padding: 20px 0px;
 }
+
 .containerContent {
   margin: auto;
 }
+
 .contentDestinations {
   flex: auto;
   position: relative;
@@ -123,11 +495,13 @@ a {
   height: 337px;
   border-radius: 8px;
 }
+
 .contentDestinations img {
   width: 261px;
   height: 337px;
   border-radius: 8px;
 }
+
 .textImage {
   height: 50px;
   padding: 3px;
@@ -135,18 +509,22 @@ a {
   position: absolute;
   bottom: 0;
   vertical-align: middle;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
+
 .textImage h1 {
   font-size: 17px;
 }
+
 .textImage p {
   font-size: 15px;
   color: #7d7987;
 }
+
 /* End CSS for Main */
 
 /* Start CSS for Footer */
+
 
 /* Start CSS for Footer */
 .Footer {
@@ -248,3 +626,4 @@ ul {
   height: 0.6px;
   background: #c4c4c4;
 }
+/* End CSS for Footer */

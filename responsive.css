@@ -103,6 +103,171 @@
   }
 
   /* Start CSS for Main */
+    body {
+        width: 1000px;
+    }
+
+    /* Start CSS for Body */
+    .container {
+        margin-left: 10%;
+    }
+
+    .guide .flex-item-left,
+    .testimoni .flex-item-left {
+        height: 350px;
+    }
+
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+        float: left;
+    }
+
+    .guide .flex-item-right img,
+    .testimoni .flex-item-right .img img {
+        height: 300px;
+    }
+
+    .guide .flex-item-left h1,
+    .guide .flex-item-left p,
+    .testimoni .flex-item-left h4 {
+        width: 700px;
+    }
+
+    .testimoni .flex-item-left h5 {
+        margin-top: 50px;
+    }
+
+    .guide .flex-item-left p {
+        margin-bottom: 13px;
+    }
+
+    .guide .flex-item-left .btn {
+        margin-bottom: 150px;
+    }
+
+    .body .container {
+        margin-top: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 200px;
+    }
+
+    .testimoni .flex-item-left {
+        flex: 40%;
+    }
+
+    .testimoni .flex-item-right {
+        flex: 40%;
+    }
+
+    .testimoni .flex-item-left .star {
+        margin-top: 50px;
+    }
+
+    .testimoni .flex-item-right .page {
+        position: absolute;
+        border-radius: 10px;
+        background-color: white;
+        top: 255px;
+        left: 300px;
+        padding: 5px;
+        width: 120px;
+        height: 50px;
+    }
+
+    /* End CSS for Body */
+
+    /* Start CSS for Header */
+    header {
+        width: 1000px;
+    }
+
+    .containerHeader {
+        padding: 40px 100px;
+        margin: 0 auto;
+    }
+
+    .header .flex-header-right {
+        display: none;
+    }
+
+    .header .flex-container .menu-icon {
+        display: block;
+    }
+
+    .header-body .flex-header-left select,
+    .header-body .flex-header-left select {
+        width: 30%;
+    }
+
+    .header-body .flex-header-right {
+        display: inline;
+    }
+
+    .header-body .flex-header-right img {
+        position: static;
+        text-align: center;
+        margin-top: 55px;
+        margin-right: 45px;
+        height: 408px;
+        width: 570px;
+        max-width: 100%;
+    }
+
+    /* End CSS for Header */
+
+    /* Start CSS for Main */
+    .firstMain {
+        flex-direction: column;
+    }
+
+    .Main {
+        width: 100%;
+    }
+
+    .secondMain {
+        flex-wrap: wrap;
+    }
+
+    .contentSecondMain {
+        flex-wrap: wrap;
+    }
+
+    .imageFirstMain img {
+        padding-left: 0px;
+    }
+
+    .containerContent {
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .contentDestinations {
+        margin: auto;
+    }
+
+    .titleSecondMain {
+        flex-direction: column;
+    }
+
+    .textTitleSecondMain {
+        padding-left: 5%;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .buttonTitleSecondMain {
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .buttonTitleSecondMain img {
+        width: 4px;
+        height: 7px;
+    }
+
+    /* Start CSS for Main */
 }
 
 /* Untuk Smartphone */
@@ -206,4 +371,105 @@
     height: 0px;
   }
   /* End CSS for Main */
+}
+
+    body {
+        width: 670px;
+    }
+
+    /* Start CSS for Header */
+    header {
+        width: 670px;
+    }
+
+    .header .flex-header-right {
+        display: none;
+    }
+
+    .header .flex-container .menu-icon {
+        display: block;
+    }
+
+    .header-body .flex-header-right {
+        display: inline;
+    }
+
+    .header-body .flex-header-right img {
+        margin-top: 45px;
+        height: 322px;
+        width: 450px;
+        max-width: 100%;
+    }
+
+    /* End CSS for Header */
+
+    /* Start CSS for Main */
+    .imageFirstMain {
+        margin: auto;
+    }
+
+    .Main {
+        width: 100%;
+    }
+
+    .titleSecondMain h1 {
+        font-size: 15px;
+        margin-left: 15%;
+        padding-right: 20%;
+    }
+
+    .titleSecondMain h2 {
+        font-size: 9px;
+    }
+
+    .titleSecondMain img {
+        width: 3px;
+        height: 5px;
+    }
+
+    .imageFirstMain img {
+        width: 261px;
+        height: 180.23px;
+    }
+
+    .titleSecondMain {
+        flex-direction: column;
+    }
+
+    .textTitleSecondMain {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .buttonTitleSecondMain {
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .buttonTitleSecondMain img {
+        width: 4px;
+        height: 7px;
+    }
+
+    .firstMain {
+        flex-direction: column;
+    }
+
+    .imageFirstMain img {
+        padding-left: 0px;
+    }
+
+    .descFirstMain {
+        margin: auto;
+    }
+
+    .contentSecondMain {
+        flex-direction: column;
+    }
+
+    .containerContent {
+        width: 100%;
+    }
+
+    /* End CSS for Main */
 }

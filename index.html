@@ -1,94 +1,208 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="responsive.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link
+      rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tour And Travel</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Start Coding for Header -->
-    <Header class="Header">
-    </Header>
+    <header class="header" id="Beranda">
+      <div class="containerHeader">
+        <div class="flex-container header">
+          <div class="flex-header-left">
+            <img src="image/logoweb.png" />
+          </div>
+          <span class="fa fa-bars menu-icon"></span>
+          <div class="flex-header-right">
+            <span class="nav"><a href="#Beranda">Beranda</a></span>
+            <span class="nav"><a href="#Destinasi">Destinasi</a></span>
+            <span class="nav"><a href="#Tentang">Tentang</a></span>
+            <span class="nav"><a href="#Partner">Partner</a></span>
+            <span class="btn-white"><a href="#">Masuk</a></span>
+            <span class="btn"><a href="#">Daftar</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="containerHeader">
+        <div class="flex-container header-body">
+          <div class="flex-header-left">
+            <h1>Jelajahi dan</h1>
+            <h1>Trip</h1>
+            <h5>Temukan liburan</h5>
+            <hr />
+            <br />
+            <form>
+              <select>
+                <option value="">Lokasi</option>
+                <option value="bali">Bali</option>
+                <option value="jawatimur">Jawa Timur</option>
+                <option value="sumaterautara">Sumatera Utara</option>
+                <option value="sulawesiutara">Sulawesi Tenggara</option>
+              </select>
+              <select>
+                <option value="">Aktivitas</option>
+                <option value="rafting">Rafting</option>
+                <option value="st">Sunrise Trekking</option>
+                <option value="hiking">Hiking</option>
+                <option value="snorkeling">Snorkeling</option>
+                <option value="diving">Diving</option>
+              </select>
+              <br />
+              <select>
+                <option value="">Layanan</option>
+                <option value="private">Private</option>
+                <option value="grup">Grup</option>
+                <option value="reguler">Reguler</option>
+              </select>
+              <input type="date" name="tanggal" placeholder="Tanggal" />
+              <br />
+              <br />
+              <span class="btn"><a href="#">Jelajahi</a></span>
+            </form>
+          </div>
+          <div class="flex-header-right">
+            <img src="image/undrawadventure.png" />
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- End Coding for Header -->
 
     <!-- Start Coding for Main -->
-    <Main class="Main">
-        <div class="firstMain">
-            <div class="imageFirstMain">
-                <img src="./image/undrawtravelers.png" alt="Image Travelers">
-            </div>
-            <div class="descFirstMain">
-                <h1>
-                    Sebuah cara baru untuk menjelajahi Indonesia
-                </h1>
-                <p>
-                    Selama beberapa dekade para wisatawan membaca buku-buku Lonely Planet ketika ingin merancangkan dan melaksanakan perjalanan mereka yang sempurna.
-                </p>
-                <button>
-                    Pelajari
-                </button>
-            </div>
+    <main class="Main">
+      <div class="firstMain">
+        <div class="imageFirstMain">
+          <img src="./image/undrawtravelers.png" alt="Image Travelers" />
         </div>
-        <div class="secondMain">
-            <div class="titleSecondMain">
-                <div class="textTitleSecondMain">
-                    Destinasi Unggulan
-                </div>
-                <div class="buttonTitleSecondMain">
-                    Liat semua
-                    <img src="./image//nextbutton.png" alt="Next Button">
-                </div>
-            </div>
-            <div class="contentSecondMain">
-                <div class="containerContent">
-                    <div class="contentDestinations">
-                        <img src="./image/imgdanautoba.jpg" alt="Danau Toba">
-                        <div class="textImage">
-                            <h1>Danau Toba</h1>
-                            <p>Sumatra Utara</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="containerContent">
-                    <div class="contentDestinations">
-                        <img src="./image/imgnusapenida.jpg" alt="Nusa Penida">
-                        <div class="textImage">
-                            <h1>Nusa Penida</h1>
-                            <p>Bali</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="containerContent">
-                    <div class="contentDestinations">
-                        <img src="./image/imgwakatobi.jpg" alt="Wakatobi">
-                        <div class="textImage">
-                            <h1>Wakatobi</h1>
-                            <p>Sulawesi Tenggara</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="containerContent">
-                    <div class="contentDestinations">
-                        <img src="./image/imggunungbromo.jpg" alt="Gunung Bromo">
-                        <div class="textImage">
-                            <h1>Gunung Bromo</h1>
-                            <p>Jawa Timur</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="descFirstMain">
+          <h1>Sebuah cara baru untuk menjelajahi Indonesia</h1>
+          <p>
+            Selama beberapa dekade para wisatawan membaca buku-buku Lonely
+            Planet ketika ingin merancangkan dan melaksanakan perjalanan mereka
+            yang sempurna.
+          </p>
+          <button>Pelajari</button>
         </div>
-    </Main>
+      </div>
+      <div class="secondMain" id="Destinasi">
+        <div class="titleSecondMain">
+          <div class="textTitleSecondMain">Destinasi Unggulan</div>
+          <div class="buttonTitleSecondMain">
+            Liat semua
+            <img src="./image//nextbutton.png" alt="Next Button" />
+          </div>
+        </div>
+        <div class="contentSecondMain">
+          <div class="containerContent">
+            <div class="contentDestinations">
+              <img src="./image/imgdanautoba.jpg" alt="Danau Toba" />
+              <div class="textImage">
+                <h1>Danau Toba</h1>
+                <p>Sumatra Utara</p>
+              </div>
+            </div>
+          </div>
+          <div class="containerContent">
+            <div class="contentDestinations">
+              <img src="./image/imgnusapenida.jpg" alt="Nusa Penida" />
+              <div class="textImage">
+                <h1>Nusa Penida</h1>
+                <p>Bali</p>
+              </div>
+            </div>
+          </div>
+          <div class="containerContent">
+            <div class="contentDestinations">
+              <img src="./image/imgwakatobi.jpg" alt="Wakatobi" />
+              <div class="textImage">
+                <h1>Wakatobi</h1>
+                <p>Sulawesi Tenggara</p>
+              </div>
+            </div>
+          </div>
+          <div class="containerContent">
+            <div class="contentDestinations">
+              <img src="./image/imggunungbromo.jpg" alt="Gunung Bromo" />
+              <div class="textImage">
+                <h1>Gunung Bromo</h1>
+                <p>Jawa Timur</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <!-- End Coding for Main -->
 
     <!-- Start Coding for Body -->
-    <Body class="Body">
-    </Body>
+    <body class="Body">
+      <!-- body2 Tezza -->
+      <div class="container" id="Tentang">
+        <div class="flex-container guide">
+          <div class="flex-item-left">
+            <h1>Dipandu oleh Thousand Sunny</h1>
+            <p>
+              Dikemas dengan tips dan saran dari pakar kami di lapangan,
+              aplikasi panduan kota kami (iOS dan Android) adalah sumber daya
+              utama sebelum dan selama perjalanan.
+            </p>
+            <a href="#" class="btn green">Unduh</a>
+          </div>
+          <div class="flex-item-right">
+            <img src="image/undrawstrandedtraveler.png" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="flex-container testimoni">
+          <div class="flex-item-left">
+            <h1>Testimoni</h1>
+            <span class="fa fa-star star"></span>
+            <span class="fa fa-star star"></span>
+            <span class="fa fa-star star"></span>
+            <span class="fa fa-star star"></span>
+            <span class="fa fa-star star"></span>
+            <h4>
+              “Pelayanan yang sangat memuaskan, dibekali dengan aplikasi di
+              Smartphone anda yang menemani selama perjalanan. Saya sangat
+              merekomendasikannya, mereka akan mengubah perjalanan Anda menjadi
+              pengalaman yang tak terlupakan”
+            </h4>
+            <h5>Edward Newgate</h5>
+            <p>Founder Circle</p>
+          </div>
+          <div class="flex-item-right">
+            <div class="img">
+              <img src="image/image6.png" />
+              <div class="page">
+                <a href="#" class="previous round">&#8249;</a>
+                <a href="#" class="next round">&#8250;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end body2 Tezza -->
+    </body>
     <!-- End Coding for Body -->
 
     <!-- Start Coding for Footer -->
