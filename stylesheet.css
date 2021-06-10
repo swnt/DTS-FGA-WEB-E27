@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
   margin: 0;
   padding: 0;
 }
@@ -19,170 +29,45 @@ a {
   text-decoration: none;
 }
 
-/* Start CSS for Header */
-.Header h1 {
-    color:burlywood;
-}
-/* End CSS for Header */
-
-/* Start CSS for Main */
-.Main {
-  margin: auto;
-}
-.firstMain {
-  padding-left: 10%;
-  padding-right: 63px;
-  padding-bottom: 100px;
-  display: flex;
-  justify-content: center;
-}
-.imageFirstMain img {
-  padding-left: 100px;
-  flex: auto;
-  width: 659px;
-  height: 455.23px;
-}
-.descFirstMain {
-  flex: auto;
-}
-.descFirstMain h1 {
-  font-size: 36px;
-  font-weight: bold;
-  width: 481px;
-  line-height: 50px;
-  margin-bottom: 20px;
-}
-.descFirstMain p {
-  font-size: 17px;
-  color: #7D7987;
-  width: 300px;
-  line-height: 30px;
-  margin-bottom: 33px;
-  text-align: justify;
-}
-.descFirstMain button {
-  width: 164px;
-  height: 48px;
-  background-color: #1ABE84;
-  border-radius: 8px;
-  color: #FFFFFF;
-  font-size: 16px;
-  text-align: center;
-  border: none;
-  box-shadow: 0 9px #7D7987;
-}
-.descFirstMain button:hover {
-  background-color: #3e8e41
-}
-.descFirstMain button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.titleSecondMain {
-  display: flex;
-}
-.textTitleSecondMain {
-  flex: auto;
-  font-size: 36px;
-  font-weight: bold;
-  margin-left: 50px;
-  padding-right: 60%;
-}
-.buttonTitleSecondMain {
-  flex: auto;
-  font-size: 17px;
-  color: #1ABE84;
-  cursor: pointer;
-}
-.buttonTitleSecondMain img {
-  width: 4px;
-  height: 9px;
-}
-.contentSecondMain {
-  display: flex;
-  padding: 20px 0px;
-}
-.containerContent {
-  margin: auto;
-}
-.contentDestinations {
-  flex: auto;
-  position: relative;
-  width: 261px;
-  height: 337px;
-  border-radius: 8px;
-}
-.contentDestinations img {
-  width: 261px;
-  height: 337px;
-  border-radius: 8px;
-}
-.textImage {
-  height: 50px;
-  padding: 3px;
-  border-radius: 0px 6px 0px 0px;
-  position: absolute;
-  bottom: 0;
-  vertical-align: middle;
-  background-color:#FFFFFF;
-}
-.textImage h1 {
-  font-size: 17px;;
-}
-.textImage p {
-  font-size: 15px;
-  color: #7D7987;
-}
-/* End CSS for Main */
-
-
-/* End CSS for Body */
-  /* {
-  box-sizing: border-box;
-} */
 .bodyContainer {
-  margin-bottom: 100px;
+  padding-bottom: 100px;
+  width: 1125px;
+  margin: auto;
 }
+
 .bodyContainer h2 {
-  margin-left: 50px;
   font-size: 36px;
-}
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 24%;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
   text-align: center;
 }
 
-/* Untuk Tablet */
-/* @media (max-width: 1000px) {
-  .item {
-    width: 50%;
-  }
-} */
+.box {
+  padding: 10px;
+  margin: auto;
+}
 
-/* Untuk Smartphone */
-/* @media (max-width: 670px) {
-  .item {
-    width: 100%;
-  }
-} */
-/* Start CSS for Footer */
+.box img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 280px;
+  width: 261px;
+}
 
-/* End CSS for Footer */
-  
+.box p {
+  padding-top: 15px;
+  width: 261px;
+  text-align: justify;
+  color: #7D7987;
+  margin: auto;
+}
+
+.box h2 {
+  font-size: 19px;
+  margin-left: 0;
+}
+
+.box1 {
+  padding-top: 50px;
+  display: flex;
+  margin: auto;
+}
