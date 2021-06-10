@@ -153,8 +153,7 @@ a {
   padding-left: 5%;
   margin-right: 5%;
   /* height: 502px; */
-  background-color: #F9F9FB;
-
+  background-color: #f9f9fb;
 }
 .topFooter {
   height: 250px;
@@ -172,9 +171,9 @@ a {
   font-weight: 500;
 }
 .topFooter {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
-} 
+}
 
 ul {
   list-style: none;
@@ -184,7 +183,6 @@ ul {
   padding: 0 15px;
   flex: auto;
   position: relative;
-
 }
 .footer-col p {
   font-size: 16px;

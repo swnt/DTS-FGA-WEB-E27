@@ -1,164 +1,209 @@
 /* Untuk Tablet */
+
+@media screen and (min-width: 1000px) {
+  .mobiletentang {
+    display: none;
+  }
+
+  .mobiletentang2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 670px) {
+  .mobiletentang2 {
+    display: none;
+  }
+}
+
 @media all and (max-width: 1000px) {
-    body {
-        width: 1000px;
-    }
-    /* Start CSS for Main */
-    .firstMain {
-        flex-direction: column;
-    }
-    .secondMain {
-        flex-wrap: wrap;
-    }
-    .contentSecondMain {
-        flex-wrap: wrap;
-    }
-    .imageFirstMain img {
-        padding-left: 0px;
-    }
-    .containerContent {
-        width: 50%;
-        padding-top: 20px;
-    }
-    .contentDestinations {
-        margin: auto;
-    }
-    .titleSecondMain {
-        flex-direction: column;
-    } 
-    .textTitleSecondMain {
-        padding-left: 5%;
-        font-size: 20px;
-        font-weight: bold;
-    }  
-    .buttonTitleSecondMain {
-        margin: auto;
-        font-size: 14px;
-    }
-    .buttonTitleSecondMain img {
-        width: 4px;
-        height: 7px;
-    }
-    .topfooter {
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-    }
-    .footer{
-        width: 100%;
-        display: flex;
-        
-    }
-    .footer-col {
-        width: 20%;
-        margin: 0 auto;}
-    .tentang {
-        margin: auto;
-    }
-    .tujuan {
-        width: 10%;
-        margin: auto;
-    }
-    .fitur {
-        width: 10%;
-        margin: auto;
-    }
-    .jperjalanan {
-        width: 10%;     
-        margin: auto;
-    }
-    .sosmed {
-        width: 100%;
-        margin: auto;
-        flex: content;
-    }
-    .garis{
-        height: 0px;
-    }
-    /* Start CSS for Main */
+  body {
+    width: 1000px;
+  }
+  /* Start CSS for Main */
+  .firstMain {
+    flex-direction: column;
+  }
+  .secondMain {
+    flex-wrap: wrap;
+  }
+  .contentSecondMain {
+    flex-wrap: wrap;
+  }
+  .imageFirstMain img {
+    padding-left: 0px;
+  }
+  .containerContent {
+    width: 50%;
+    padding-top: 20px;
+  }
+  .contentDestinations {
+    margin: auto;
+  }
+  .titleSecondMain {
+    flex-direction: column;
+  }
+  .textTitleSecondMain {
+    padding-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .buttonTitleSecondMain {
+    margin: auto;
+    font-size: 14px;
+  }
+  .buttonTitleSecondMain img {
+    width: 4px;
+    height: 7px;
+  }
+  .topfooter {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .footer-col .tentang {
+    display: none;
+    position: relative;
+  }
+
+  .mobiletentang {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+  }
+
+  .mobiletujuan {
+    width: 30%;
+    margin: auto;
+    position: absolute;
+  }
+  .mobilefitur {
+    width: 30%;
+    margin: auto;
+  }
+  .mobilejperjalanan {
+    width: 30%;
+    margin: auto;
+  }
+
+  .sosmed {
+    padding: 40px 0;
+    width: 260px;
+    justify-content: center;
+    margin: auto;
+    flex: auto;
+  }
+  .sosmed a {
+    padding: 13px;
+    flex: auto;
+  }
+
+  .garis {
+    height: 0px;
+  }
+
+  /* Start CSS for Main */
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-    body {
-        width: 670px;
-    }
-    /* Start CSS for Main */
-    .imageFirstMain {
-        margin: auto;
-    }
-    .titleSecondMain h1 {
-        font-size: 15px;
-        margin-left: 15%;
-        padding-right: 20%;
-    }
-    .titleSecondMain h2 {
-        font-size: 9px;
-    }
-    .titleSecondMain img {
-      width: 3px;
-      height: 5px;
-    }
-    .imageFirstMain img {
-        width: 261px;
-        height: 180.23px;
-    }
-    .titleSecondMain {
-        flex-direction: column;
-    } 
-    .textTitleSecondMain {
-        font-size: 15px;
-        width: 100%;
-    }  
-    .buttonTitleSecondMain {
-        margin: auto;
-        font-size: 14px;
-    }
-    .buttonTitleSecondMain img {
-        width: 4px;
-        height: 7px;
-    }
-    .firstMain {
-        flex-direction: column;
-    }
-    .imageFirstMain img {
-        padding-left: 0px;
-    }
-    .descFirstMain {
-        margin: auto;
-    }
-    .contentSecondMain {
-        flex-direction: column;
-    }
-    .footer{
-        width:max-content;
-    }
-    .footer-col {
-        width: 20%;
-        margin: 0 auto;
-    }
-    .tentang {
-        margin-left: 0;
-        margin-right: 5%;
-    }
-    .tujuan {
-        width: 5%;
-        margin: auto;
-    }
-    .fitur {
-        width: 5%;
-        margin: auto;
-    }
-    .jperjalanan {
-        width: 5%;     
-        margin: auto;
-    }
-    .sosmed {
-        width: 10%;
-        margin: auto;
-    }
-    .garis{
-        height: 0px;
-    }
-    /* End CSS for Main */
+  body {
+    width: 670px;
+  }
+  /* Start CSS for Main */
+  .imageFirstMain {
+    margin: auto;
+  }
+  .titleSecondMain h1 {
+    font-size: 15px;
+    margin-left: 15%;
+    padding-right: 20%;
+  }
+  .titleSecondMain h2 {
+    font-size: 9px;
+  }
+  .titleSecondMain img {
+    width: 3px;
+    height: 5px;
+  }
+  .imageFirstMain img {
+    width: 261px;
+    height: 180.23px;
+  }
+  .titleSecondMain {
+    flex-direction: column;
+  }
+  .textTitleSecondMain {
+    font-size: 15px;
+    width: 100%;
+  }
+  .buttonTitleSecondMain {
+    margin: auto;
+    font-size: 14px;
+  }
+  .buttonTitleSecondMain img {
+    width: 4px;
+    height: 7px;
+  }
+  .firstMain {
+    flex-direction: column;
+  }
+  .imageFirstMain img {
+    padding-left: 0px;
+  }
+  .descFirstMain {
+    margin: auto;
+  }
+  .contentSecondMain {
+    flex-direction: column;
+  }
+  .footer {
+    width: max-content;
+  }
+
+  .mobiletentang {
+    display: none;
+    position: relative;
+  }
+
+  .mobiletujuan {
+    width: 60%;
+    margin: auto;
+    position: absolute;
+  }
+  .mobilefitur {
+    width: 40%;
+    margin: auto;
+  }
+  .mobilejperjalanan {
+    width: 40%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .mobiletentang2 {
+    width: 60%;
+    margin-top: 50px;
+  }
+
+  .sosmed {
+    padding: 40px 0;
+    width: 260px;
+    justify-content: center;
+    margin: auto;
+    flex: auto;
+    margin-top: 450px;
+  }
+  .sosmed a {
+    padding: 13px;
+    flex: auto;
+  }
+
+  .garis {
+    height: 0px;
+  }
+  .garis {
+    height: 0px;
+  }
+  /* End CSS for Main */
 }
